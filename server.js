@@ -9,7 +9,7 @@ const app = express(); //
 const PORT = process.env.PORT || 3000; //
 
 // Route Definitions
-app.use(express.static('./public'));
+app.use(express.static('./Public'));
 app.get('/greet', greetHandler);
 app.get('/data', dataHandler);
 app.use('*', notFoundHandler);
