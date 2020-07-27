@@ -1,7 +1,7 @@
 {
   "name": "deployment",
   "version": "1.0.0",
-  "description": "",
+  "description": "Portfolio",
   "main": "server.js",
   "dependencies": {
     "dotenv": "^8.2.0",
@@ -13,6 +13,14 @@
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "ehilst",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehilst515/ehilst515.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ehilst515/ehilst515.github.io/issues"
+  },
+  "homepage": "https://github.com/ehilst515/ehilst515.github.io#readme"
 }
